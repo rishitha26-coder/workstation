@@ -1,6 +1,6 @@
 # workstation_setup
 
-This repository provides tooling to set up a Mogo employee workstation running macOS with the necessary tools and configuration to start developing/working on systems in our customer-facing environments.
+This repository provides tooling to set up a workstation running macOS with the necessary tools and configuration to start developing/working on systems in our customer-facing environments.
 
 ## What does this install
 
