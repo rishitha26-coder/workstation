@@ -106,18 +106,6 @@ function setup_pyenv {
 	/usr/local/bin/pyenv global 2.7.15
 }
 
-function setup_ruby {
-	echo "Setup rbenv"
-	echo "eval \"$(rbenv init -)\"" >> "$HOME"/.bashrc
-
-	echo "Activating rbenv..."
-	# shellcheck source=/dev/null
-	source "${HOME}/.bashrc"
-
-	echo "Installing Ruby 2.6.2.  This can take a while..."
-	rbenv install 2.6.2
-}
-
 function install_pip_packages {
 	# Install pip packages
 	echo 'Installing pip packages...'
